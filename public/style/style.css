@@ -2,16 +2,27 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #7c7c7e;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+.web-txt {
+    position: relative;
+    top: -300px;
+    right: -50px;
+    color: #ffffff;
+
+}
+
+
 
 .app-wrapper {
+    position: relative;
+    right: 250px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #4e4c4c;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -19,8 +30,8 @@ body {
 }
 
 .app-wrapper .generate-dog {
-    background-color: #007bff;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
